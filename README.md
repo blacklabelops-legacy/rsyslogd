@@ -36,10 +36,6 @@ $ cat /var/log/messages
 The Container exposes the logging socket `/dev/log` as a Docker volume. The statement `--volumes-from syslog` mounts
 this volume and logs without having to run a syslog demon locally.
 
-# Support
-
-Leave a message and ask questions on Hipchat: [blacklabelops/hipchat](http://support.blacklabelops.com)
-
 # References
 
 * [Rsyslod Homepage](http://www.rsyslog.com/)
